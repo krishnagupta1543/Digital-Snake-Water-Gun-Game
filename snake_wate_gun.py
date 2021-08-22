@@ -28,12 +28,12 @@ while(i <= n):
       print("Opponent choice", p)
       w+=1
     elif (c == 'g' and p == 's'):
-      print("Cong...... You Won")
+      print("congratulation You Won")
       print("Your choice", c)
       print("Opponent choice", p)
       losse += 1
     elif (c == 's' and p == 'w'):
-      print("Cong...... You Won")
+      print("congratulation You Won")
       print("Your choice", c)
       print("Opponent choice", p)
 
