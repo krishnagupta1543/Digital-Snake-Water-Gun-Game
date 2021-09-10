@@ -11,7 +11,7 @@ print("3 - If your choice is gun and opponent choice is water than you lose the 
 print("4 - If your choice is water and opponent choice is gun than you win the round")
 print("5 - If your choice is gun and opponent choice is snake than you win the round")
 print("6 - If your choice is snake and opponent choice is gun than you lose the round")
-print("7 - If your choice and opponent choice is same that draw round")
+print("7 - If your choice and opponent choice is same than draw round")
 print("Enter s for ---> SNAKE")
 print("Enter w for ---> WATER")
 print("Enter g for ---> GUN")
