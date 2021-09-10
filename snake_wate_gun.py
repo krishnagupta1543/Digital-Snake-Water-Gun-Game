@@ -81,7 +81,8 @@ try:
           print("Match Draw")
           print("Your choice", c)
           print("Opponent choice", p)
-      
+          print("Your score", win)
+          print("Opponent score", lose)
         i+=1
     
     if (win > lose):
