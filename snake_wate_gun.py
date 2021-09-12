@@ -3,8 +3,8 @@ MY FIRST MINI PROJECT
 
 """
 import random
-print("Welcome to SNAKE-WATER-GUN Game zone")
-print("RULES TO PLAY GAME")
+print("WELCOME TO DIGITAL SNAKE-WATER-GUN GAME ZONE")
+print("***RULES TO PLAY GAME****")
 print("1 - If your choice is snake and opponent choice is water than you win the round")
 print("2 - If your choice is water and opponent choice is snake than you lose the round")
 print("3 - If your choice is gun and opponent choice is water than you lose the round")
@@ -86,19 +86,21 @@ try:
         i+=1
     
     if (win > lose):
-      print("******You win the match******")
-      print("YOUR SCORE IS", won)
+      print("******You Win******")
+      print("YOUR SCORE", win)
+      print("OPPONENT SCORE", lose)
   
     elif(win == lose):
       print("******MATCH DRAW******")
-      print("Number of rounds you win", win)
-      print("Number of rounds you loss", lose)
+      print("Number of rounds you Win",win)
+      print("Number of rounds opponent win", lose)
 
     else:
-      print("******YOU LOSS THE MATCH******")
+      print("******Opponent Win******")
+      print("OPPONENT SCORE", lose)
       print("YOUR SCORE IS", win)
 
     
-except :
-    print("Sorry please Enter Integer value of rounds you want to play")
+except Exception as e:
+    print("oops you got an error", e)
     
